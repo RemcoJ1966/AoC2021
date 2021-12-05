@@ -66,8 +66,8 @@ if __name__ == '__main__':
 
     with open('input', 'r') as f:
         numbers = [int(n) for n in f.readline().split(',')]
-        boards: List[List[List[int]]] = []
-        board: List[List[int]] = []
+        boards: List[Board] = []
+        board: Board = []
 
         discard = f.readline()
         line = f.readline()
