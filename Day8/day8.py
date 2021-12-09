@@ -45,8 +45,6 @@ if __name__ == '__main__':
 
     print(f'There are {unique_digits_count} instances')
 
-    signals_list = [v for v, _ in input]
-
     val = 0
     for connection in input:
         signals = connection[0]
